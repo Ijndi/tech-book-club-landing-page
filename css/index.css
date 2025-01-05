@@ -123,8 +123,7 @@ button {
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
-    display: flex
-;
+    display: flex;
     align-items: center;
     padding-inline: 24px;
     letter-spacing: -1px;
@@ -198,30 +197,17 @@ button {
     letter-spacing: var(--ls-0_5);
     font-family: var(--ff-secondary);
 }
-.button-membership{
-    background-color: var(--clr-neutral100);
-    background: no-repeat linear-gradient(90deg, #FFE2D1, #FFF5EF);
-    color: var(--clr-neutral900);
-    font-family: var(--ff-primary);
-    font-size: var(--fs-p);
-    font-weight: var(--fw-semibold);
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    border: 2px var(--clr-neutral900) solid;
-    align-items: center;
-    padding: 0;
-    display: flex;
-}
 
 .button-membership a{
     text-decoration: none;
     color: var(--clr-neutral900);
 }
 
-.button-membership:hover{
-    background-color: var(--clr-lightsalmon500);
+.buttonlight:hover{
+    background-position-x: 0%;
+    color: var(--clr-gradient);
 }
+
 .img-example-title{
     border-radius: 12px;
     
